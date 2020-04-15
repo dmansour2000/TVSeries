@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/TVSeries/static/css/main.40b1d25c.chunk.css",
-    "main.js": "/TVSeries/static/js/main.a60af088.chunk.js",
-    "main.js.map": "/TVSeries/static/js/main.a60af088.chunk.js.map",
-    "runtime-main.js": "/TVSeries/static/js/runtime-main.a8119b3e.js",
-    "runtime-main.js.map": "/TVSeries/static/js/runtime-main.a8119b3e.js.map",
-    "static/js/2.ddac3c6f.chunk.js": "/TVSeries/static/js/2.ddac3c6f.chunk.js",
-    "static/js/2.ddac3c6f.chunk.js.map": "/TVSeries/static/js/2.ddac3c6f.chunk.js.map",
-    "index.html": "/TVSeries/index.html",
-    "precache-manifest.76db808aff960f23655d8a886cf01a05.js": "/TVSeries/precache-manifest.76db808aff960f23655d8a886cf01a05.js",
-    "service-worker.js": "/TVSeries/service-worker.js",
-    "static/css/main.40b1d25c.chunk.css.map": "/TVSeries/static/css/main.40b1d25c.chunk.css.map",
-    "static/js/2.ddac3c6f.chunk.js.LICENSE.txt": "/TVSeries/static/js/2.ddac3c6f.chunk.js.LICENSE.txt",
-    "static/media/loader.gif": "/TVSeries/static/media/loader.b0a23662.gif",
-    "static/media/logo.svg": "/TVSeries/static/media/logo.5d5d9eef.svg"
+    "main.css": "./static/css/main.40b1d25c.chunk.css",
+    "main.js": "./static/js/main.977c2bf6.chunk.js",
+    "main.js.map": "./static/js/main.977c2bf6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.396a306d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.396a306d.js.map",
+    "static/js/2.ddac3c6f.chunk.js": "./static/js/2.ddac3c6f.chunk.js",
+    "static/js/2.ddac3c6f.chunk.js.map": "./static/js/2.ddac3c6f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.1aba39a431c303e5e932e68addc84a96.js": "./precache-manifest.1aba39a431c303e5e932e68addc84a96.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.40b1d25c.chunk.css.map": "./static/css/main.40b1d25c.chunk.css.map",
+    "static/js/2.ddac3c6f.chunk.js.LICENSE.txt": "./static/js/2.ddac3c6f.chunk.js.LICENSE.txt",
+    "static/media/loader.gif": "./static/media/loader.b0a23662.gif",
+    "static/media/logo.svg": "./static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8119b3e.js",
+    "static/js/runtime-main.396a306d.js",
     "static/js/2.ddac3c6f.chunk.js",
     "static/css/main.40b1d25c.chunk.css",
-    "static/js/main.a60af088.chunk.js"
+    "static/js/main.977c2bf6.chunk.js"
   ]
 }
