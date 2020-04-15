@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TVSeries/static/css/main.40b1d25c.chunk.css",
+    "main.js": "/TVSeries/static/js/main.aca07373.chunk.js",
+    "main.js.map": "/TVSeries/static/js/main.aca07373.chunk.js.map",
+    "runtime-main.js": "/TVSeries/static/js/runtime-main.a8119b3e.js",
+    "runtime-main.js.map": "/TVSeries/static/js/runtime-main.a8119b3e.js.map",
+    "static/js/2.ddac3c6f.chunk.js": "/TVSeries/static/js/2.ddac3c6f.chunk.js",
+    "static/js/2.ddac3c6f.chunk.js.map": "/TVSeries/static/js/2.ddac3c6f.chunk.js.map",
+    "index.html": "/TVSeries/index.html",
+    "precache-manifest.0de68edceb405e44531d496ae463de1d.js": "/TVSeries/precache-manifest.0de68edceb405e44531d496ae463de1d.js",
+    "service-worker.js": "/TVSeries/service-worker.js",
+    "static/css/main.40b1d25c.chunk.css.map": "/TVSeries/static/css/main.40b1d25c.chunk.css.map",
+    "static/js/2.ddac3c6f.chunk.js.LICENSE.txt": "/TVSeries/static/js/2.ddac3c6f.chunk.js.LICENSE.txt",
+    "static/media/loader.gif": "/TVSeries/static/media/loader.b0a23662.gif",
+    "static/media/logo.svg": "/TVSeries/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8119b3e.js",
+    "static/js/2.ddac3c6f.chunk.js",
+    "static/css/main.40b1d25c.chunk.css",
+    "static/js/main.aca07373.chunk.js"
+  ]
+}
