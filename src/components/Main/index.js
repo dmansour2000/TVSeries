@@ -5,8 +5,8 @@ import SingleSeries from '../../containers/SingleSeries';
 
 const Main = props => (
     <Switch>
-        <Route exact path="/" component={Series} />
-        <Route path="/series/:id" component={SingleSeries} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Series} />
+        <Route path={process.env.PUBLIC_URL + '/series/:id'} component={SingleSeries} />
     </Switch>
 );
 
