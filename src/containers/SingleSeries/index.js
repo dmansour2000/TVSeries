@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Loader from '../../components/Loader';
 import Logo from '../../logo.svg'
-import reactStringReplace from 'react-string-replace';
 
 class SingleSeries extends Component {
 state = {
@@ -18,7 +17,6 @@ componentDidMount() {
 
 render() {
     const { show } = this.state;
-    console.log(show);
     
     return (
         <div>
@@ -33,10 +31,10 @@ render() {
           <p>Episodes : {show._embedded.episodes.length}</p>
           <p>
             {
-              show.image !== null   
+            show.image !== null   
               && 
             <img alt="Show" 
-            src= {reactStringReplace(show.image.medium, /(http)/g, () => 'https')}
+            src={show.image.medium.replace('http','https')}
              />
             }
           
