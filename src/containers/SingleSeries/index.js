@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Loader from '../../components/Loader';
 import Logo from '../../logo.svg'
+import reactStringReplace from 'react-string-replace';
 
 class SingleSeries extends Component {
 state = {
@@ -10,7 +11,7 @@ state = {
 componentDidMount() {
     const { id } = this.props.match.params;
 
-    fetch(`http://api.tvmaze.com/shows/${id}?embed=episodes`)
+    fetch(`https://api.tvmaze.com/shows/${id}?embed=episodes`)
     .then( (response) => response.json())
     .then(json => this.setState({ show: json}));
 }
@@ -18,7 +19,7 @@ componentDidMount() {
 render() {
     const { show } = this.state;
     console.log(show);
-
+    
     return (
         <div>
         { show === null && <Loader />}
@@ -31,11 +32,14 @@ render() {
           <p>Rating : {show.rating.average}</p>
           <p>Episodes : {show._embedded.episodes.length}</p>
           <p>
-              {
-                  show.image !== null 
-                  &&
-                  <img alt="Show" src={show.image.medium}/>
-              }
+            {
+              show.image !== null   
+              && 
+            <img alt="Show" 
+            src= {reactStringReplace(show.image.medium, /(http)/g, () => 'https')}
+             />
+            }
+          
               {
                   show.image === null
                   &&
